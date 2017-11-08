@@ -1,6 +1,10 @@
-title: Researcher
-url: "http://ankitsultana.com"
-baseurl: "/researcher"
+title: Carl De Vries
+
+url: "http://carldevries.com"
+baseurl: ""
+
+host: localhost
+port: 4000
 
 markdown: kramdown
 

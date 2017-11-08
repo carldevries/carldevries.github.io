@@ -3,24 +3,18 @@ layout: default
 is_contact: true
 ---
 
-* Email: [foo@xyz.com](mailto:foo@xyz.com)
+* Email: [carldevries@gmail.com](mailto:carldevries@gmail.com)
 
-* Phone: [+91-123123](tel:+91-123123)
+* Phone: [641-780-9473](tel:641-780-9473)
 
 ---
 
 ## Mailing Address
 
-> 221B, Baker Street
+> 4329 Lincoln Swing Street Unit #13
 >
-> London
+> Ames, IA
 >
-> United Kingdom
+> United States
 
 ---
-
-## Social
-
-1. [Facebook](#)
-2. [Twitter](#)
-3. [Google+](#)
