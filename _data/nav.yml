@@ -1,6 +1,12 @@
 - name: "Contact"
   link: "contact"
 
+- name: "LinkedIn"
+  link: "https://www.linkedin.com/in/carldevries"
+
+- name: "Github"
+  link: "https://github.com/carldevries"
+
 - name: "Resume"
   link: "resume.pdf"
 

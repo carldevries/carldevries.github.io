@@ -8,3 +8,5 @@ is_contact: true
 * Phone: [641-780-9473](tel:641-780-9473)
 
 ---
+
+> "Try to be one of those on whom nothing is lost." - Henry James
