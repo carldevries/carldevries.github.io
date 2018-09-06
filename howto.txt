@@ -1,0 +1,11 @@
+Installing Bash for Windows and Jekyll? I don't remember. You're on your own.
+You might have luck in your programming bookmarks.
+Update this when you figure it out again. ;)
+
+Use the following commands
+Open cmd.exe
+Navigate to Jekyll project directory
+Type "bash" in the command window to open a Bash prompt.
+Type "jekyll serve" to get a server at localhost:4000 which watches for changes
+Type "jekyll build" to build the static pages for the site (not required by GH)
+I've never used any of the other commands. Good luck.
