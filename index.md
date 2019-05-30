@@ -29,6 +29,10 @@ Scaled Agile, Test Driven Development, Java EE, Git, SVN, Linux
 
 ## Work Experience
 
+**Research Intern**  
+*MIT Lincoln Laboratory* | *Lexington, MA* | *May 2019 - Jul. 2019*
+
+
 **Engineering Co-op**  
 *The Charles Stark Draper Laboratory, Inc.* | *Cambridge, MA* | *Jan. 2018 - Jul. 2018*
 * Developed guidance computer system simulation software to meet product release milestones and performance requirements 
