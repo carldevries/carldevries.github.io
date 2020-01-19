@@ -18,33 +18,30 @@ Hi! I'm a senior majoring in aerospace engineering at Iowa State University.
 * Reproducible Research Initiative
 
 ---
+## Education
 
-## Skills
+**Bachelor of Science, Aerospace Engineering** \\
+*Iowa State University College of Engineering* | Ames, IA \\
+GPA: 3.85 \\
+Expected Graduation: May 2020
 
-### Coursework
-
-* Automatic Control of Flight Vehicles (graduate course, Spring 2019)
-* Guidance and Navigation of Aerospace Vehicles (graduate course, Fall 2019)
-* Random Signals Analysis and Kalman Filtering (graduate course, Fall 2019)
-* Spacecraft Dynamics and Control (Fall 2019)
-* Astrodynamics II (Fall 2019)
-
-### Software
-
-MATLAB, Simulink, Python, C/C++, Scaled Agile, Test Driven Development, Git, SVN, Linux
+**Associate of Arts, Liberal Arts, Pre-Engineering w/ Honors** \\
+*Des Moines Area Community College* | Boone, IA \\
+GPA: 3.76 \\
+January 2012 - December 2014
 
 ---
 
 ## Work Experience
 
 **Research Intern**  
-**MIT Lincoln Laboratory** | *Lexington, MA* | *May 2019 - Jul. 2019*
-* Implemented 3 degree of freedom missile model and integrated it into an aircraft engagement simulation
-* Updated aircraft models from fixed altitude in a flat Earth frame to 3-D Earth-centered Earth fixed frame
-* Validated the simulation using Proportional Navigation, gravity bias, and lofting guidance schemes
+*MIT Lincoln Laboratory* | Lexington, MA | May 2019 - Jul. 2019
+* Implemented a 3 degree of freedom missile model and integrated it into an aircraft engagement simulation
+* Updated the engagement simulation from a 2D flat Earth model to a 3D spherical Earth model
+* Validated the simulation using proportional navigation, gravity bias, and lofting guidance schemes
 
 **Engineering Co-op**  
-**The Charles Stark Draper Laboratory, Inc.** | *Cambridge, MA* | *Jan. 2018 - Jul. 2018*
+*The Charles Stark Draper Laboratory, Inc.* | Cambridge, MA | Jan. 2018 - Jul. 2018
 * Developed guidance computer system simulation software to meet product release milestones and performance requirements 
 * Compared performance and noise characteristics between a system level Simulink 
 sensor model and a standalone sensor MATLAB model using analytical and numerical techniques
@@ -60,7 +57,7 @@ coding standards
 
 
 **Software Engineering Co-op**  
-**Collins Aerospace** (formerly Rockwell Collins)  | *Cedar Rapids, IA* | *Jan. 2017 - Aug. 2017*
+*Collins Aerospace* (formerly Rockwell Collins)  | Cedar Rapids, IA | Jan. 2017 - Aug. 2017
 * Verified functionality and DO-178B Level A compliance for 75 Simulink models
 upgraded from 2007a to 2016b
 * Decreased build times via script enhancements by omitting unchanged models
@@ -75,7 +72,7 @@ violations
 
 
 **Application Developer**  
-**Principal Financial Group** | *Des Moines, IA* | *May 2014 - Jun. 2016*
+*Principal Financial Group* | Des Moines, IA | May 2014 - Jun. 2016
 * Developed software in an Agile environment to rapidly provide business
 critical features and application stability
 * Administrated application servers and established governance for IBM
@@ -89,22 +86,42 @@ evaluate business requirements
 
 
 **Hardware/Software Analyst Intern**  
-**Vermeer Corporation** | *Pella, IA* | *Jan. 2017 - Aug. 2017*
+*Vermeer Corporation* | Pella, IA | Jan. 2017 - Aug. 2017
 * Deployed IT assets and supported tier I help desk support.  
 
 ---
 
-## Education
+## Coursework
 
-**Iowa State University College of Engineering** | Ames, IA  
-*Bachelor of Science in Aerospace Engineering* \\
-GPA: 3.89 \\
-Expected Graduation: May 2020
+**Spring 2019**
+* **Automatic Control of Flight Vehicles** (graduate course)
+  * PID and LQR controller design for longitudinal and lateral modes of a Cessna T-37 (Simulink)\\
 
-**Des Moines Area Community College** | Boone, IA  
-*Associate of Arts Liberal Arts - Pre-Engineering w/ Honors* \\
-GPA: 3.76 \\
-January 2012 - December 2014
+
+**Fall 2019**
+* **Guidance and Navigation of Aerospace Vehicles** (graduate course)
+  * 3DOF Mars entry simulation using two-phase Zero-Effort-Miss/Zero-Effort-Velocity (ZEM/ZEV) guidance  
+  * Ballistic missile intercept simulation using true, pulsed proportional navigation and ZEM guidance  
+  * Orbital rendezvous using Clohessy-Wiltshire equations, linearized perturbed guidance, and ZEM/ZEV  
+  * Strapdown inertial navigation IMU simulation verified using 3DOF Mars entry flight dynamics  
+* **Random Signals Analysis and Kalman Filtering** (graduate course)
+  * Kalman Filter estimation of four aircraft longitudinal states from two measurements using elevator input  
+  * Extended Kalman Filter estimation of two-dimensional motion model  
+* **Spacecraft Dynamics and Control**
+  * 3DOF quaternion feedback controller simulation for satellite rest-to-rest and pointing maneuvers  
+* **Astrodynamics II**
+  * Orbital insertion simulation and trajectory design for a two stage, solid-fuel gravity turn rocket  
+  * Lunar free return trajectory simulation using circular, restricted three body (CR3BP) dynamics  
+
+**Spring 2020**
+* **Advanced Engineering Dynamics** (graduate course)
+* **Digital Feedback Control Systems** (graduate course)
+
+---
+
+## Software and Skills
+
+MATLAB, Simulink, Python, C/C++, Scaled Agile, Test Driven Development, Git, SVN, Linux
 
 ---
 
