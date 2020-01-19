@@ -1,11 +1,12 @@
 \documentclass[overlapped, 11pt]{res}
 \usepackage{enumitem}
 \usepackage[a4paper, margin=0.5in]{geometry}
+\usepackage{booktabs}
 
+\newcommand{\tabitem}{~~\textbullet~~}
 \topmargin=-0.5in
 \setlength{\textheight}{11in}
 \setlist[itemize]{noitemsep, topsep=0.1em, label=\textbullet, leftmargin=0.15in}
-
 
 \begin{document}
 
@@ -15,99 +16,121 @@
     4329 Lincoln Swing \#36 Ames, IA 50014 
     \textbar \ (641) 780-9473 
     \textbar \ carldevries@gmail.com 
-    \textbar \ www.carldevries.com
+    %\textbar \ www.carldevries.com
 }
 
 \begin{resume}
 
     \begin{itemize}
-    \item[]\section{EDUCATION}
-        \textbf{Iowa State University College of Engineering} \textbar 
-            \ Ames, IA \hfill Expected: May 2020\\
-        \emph{Bachelor of Science, Aerospace Engineering} \\
-            GPA: 3.89
-        \\[0.5em]
-        \textbf{Des Moines Area Community College} \textbar 
-            \ Boone, IA \hfill December 2014\\
-        \emph{Associate of Arts, Liberal Arts, Pre-engineering w/ Honors}\\
-            GPA: 3.76
+    
+        \item[]\section{EDUCATION}
+            \textbf{Bachelor of Science, Aerospace Engineering} \\
+            \emph{Iowa State University College of Engineering} \textbar 
+                \ Ames, IA \hfill Expected: May 2020\\
+                GPA: 3.85
+            \\[0.5em]
+            \textbf{Associate of Arts, Liberal Arts, Pre-engineering w/ Honors} \\
+            \emph{Des Moines Area Community College} \textbar 
+                \ Boone, IA \hfill December 2014\\
+                GPA: 3.76
 
-    \item[]\section{EXPERIENCE}
+        \item[]\section{EXPERIENCE}
+            \textbf{Research Intern}\\
+            \emph{MIT Lincoln Laboratory} \textbar 
+                \ Lexington, MA \hfill May 2019 - August 2019
+            \begin{itemize}
+                \item Implemented a 3 degree of freedom missile model and integrated it into an aircraft engagement simulation
+                \item Updated the engagement simulation from a 2D flat Earth model to a 3D spherical Earth model
+                \item Validated the simulation using proportional navigation, gravity bias, and lofting guidance schemes
+           \end{itemize}
+            
+%            \vspace{0.5em}
+            \textbf{Engineering Co-op}\\
+            \emph{The Charles Stark Draper Laboratory, Inc.} \textbar 
+                \ Cambridge, MA \hfill January 2018 - July 2018
+            \begin{itemize}
+                \item Implemented guidance computer simulation software in MATLAB and Simulink
+                \item Verified performance characteristics between system level models and standalone sensor models
+                \item Integrated a new sensor model into a system simulation and generated data for performance verification
+                \item Automated data analysis and unit tests to verify a sensor model's scale factor and bias implementation
+            \end{itemize}
 
-        \vspace{0.5em}
-        \textbf{Research Intern}\\
-        \emph{MIT Lincoln Laboratory} \textbar 
-            \ Lexington, MA \hfill May 2019 - August 2019
-        \begin{itemize}
-            \item Implemented 3 degree of freedom missile model and integrated it into an aircraft engagement simulation
-            \item Updated aircraft models from fixed altitude in a flat Earth frame to 3-D Earth-centered Earth fixed frame
-            \item Validated the simulation using Proportional Navigation, gravity bias, and lofting guidance schemes
-       \end{itemize}
+%            \vspace{0.5em}
+            \textbf{Software Engineering Co-op}\\
+            \emph{Collins Aerospace (formerly Rockwell Collins)} \textbar 
+                \ Cedar Rapids, IA \hfill January 2017 - August 2017
+            \begin{itemize}
+                \item Verified functional and DO-178B Level A compliance for 75 upgraded Simulink models (2007a - 2016b)
+                \item Developed graphical and functional flight display software using Simulink and Simulink Coder
+                \item Decreased build times via script enhancements which omitted unchanged models from the build process
+                %\item Developed a script to parse and sort C lint violations (MISRA, DO-178) to increase developer efficiency
+            \end{itemize}
+
+            % \vspace{0.5em}
+            % \textbf{Application Developer}\\
+            % \emph{Principal Financial Group} \textbar 
+                % \ Des Moines, IA \hfill May 2014 - June 2016
+            % \begin{itemize}
+                % \item Developed software in an Agile environment to provide business critical features and application stability
+                % \item Automated a build, test, and deployment pipeline to increase efficiency during IBM ODM development
+                % \item Decreased regression suite execution time from 90 minutes to less than 5 minutes via Ruby scripting
+            % \end{itemize}
         
-        \vspace{0.5em}
-        \textbf{Engineering Co-op}\\
-        \emph{The Charles Stark Draper Laboratory, Inc.} \textbar 
-            \ Cambridge, MA \hfill January 2018 - July 2018
-        \begin{itemize}
-            \item Implemented guidance computer simulation software in MATLAB and Simulink
-            \item Verified performance characteristics between system level models and standalone sensor models
-            \item Integrated a new sensor model into a system simulation and generated data for performance verification
-            \item Automated data analysis and unit tests which verify a sensor model's scale factor and bias implementation
-        \end{itemize}
+            \section{SKILLS}
+            
+                \begin{itemize}
+                    \item[] MATLAB, Simulink, Python, C/C++, Linux, Git, SVN
+                \end{itemize}
+                
+         \section{PROJECTS}
+                
+            \textbf{Guidance and Navigation of Aerospace Vehicles} \\
+                \begin{tabular}{l}
+                    \tabitem 3DOF Mars entry simulation using two-phase Zero-Effort-Miss/Zero-Effort-Velocity (ZEM/ZEV) guidance \\
+                    \tabitem Ballistic missile intercept simulation using true, pulsed proportional navigation and ZEM guidance \\
+                    \tabitem Orbital rendezvous using Clohessy-Wiltshire equations, linearized perturbed guidance, and ZEM/ZEV\\
+                    \tabitem Strapdown inertial navigation IMU simulation verified using 3DOF Mars entry flight dynamics \\
+                \end{tabular}
 
-        \vspace{0.5em}
-        \textbf{Software Engineering Co-op}\\
-        \emph{Collins Aerospace (formerly Rockwell Collins)} \textbar 
-            \ Cedar Rapids, IA \hfill January 2017 - August 2017
-        \begin{itemize}
-            \item Verified functional and DO-178B Level A compliance for 75 upgraded Simulink models (2007a - 2016b)
-            \item Developed graphical and functional flight display software to meet customer requirements on time
-            \item Decreased build times via script enhancements which omitted unchanged models from the build process
-            \item Developed a script to parse and sort C lint violations (MISRA, DO-178) to increase developer efficiency
-        \end{itemize}
+            \textbf{Random Signals Analysis and Kalman Filtering} \\
+                \begin{tabular}{l}
+                    \tabitem Kalman Filter estimation of four aircraft longitudinal states from two measurements using elevator input\\
+                    \tabitem Extended Kalman Filter estimation of two-dimensional motion model\\
+                \end{tabular}
+                
+            \textbf{Automatic Control of Flight Vehicles} \\
+                \begin{tabular}{l}
+                    \tabitem PID and LQR controller design for longitudinal and lateral modes of a Cessna T-37 (Simulink)\\
+                \end{tabular}
+                
+            \textbf{Astrodynamics II} \\
+                \begin{tabular}{l}
+                    \tabitem Orbital insertion simulation and trajectory design for a two stage, solid-fuel gravity turn rocket \\
+                    \tabitem Lunar free return trajectory simulation using circular, restricted three body (CR3BP) dynamics \\
+                \end{tabular}
+            
+            \textbf{Spacecraft Dynamics and Control} \\
+                \begin{tabular}{l}
+                    \tabitem 3DOF quaternion feedback controller simulation for satellite rest-to-rest and pointing maneuvers\\
+                    %\tabitem 3DOF satellite gravity gradient and spin up control simulation\\           
+                \end{tabular}
+                
+            \textbf{Additional Projects} \\
+                \begin{tabular}{l}
+                    %\tabitem Simulated Black Brant V \& IX sounding rocket models to analyze single \& multi-stage performance (C++)\\
+                    \tabitem Black Brant sounding rocket simulations to analyze single and multi-stage motor performance (C++)\\
+                    \tabitem Runge-Kutta-Fehlberg (RK45) adaptive step-size integrator verified using CR3BP (C++) \\
+                    \tabitem Developed an autonomous vehicle to navigate around a 12 foot track 5 times in 60 seconds (C++)
+                \end{tabular}
 
-    \item[]\section{SKILLS}
-        \begin{itemize}
-            \item[] MATLAB, Simulink, Python, C/C++, Git, SVN, Linux, Model Based Engineering
-        \end{itemize}
-
-    \item[]\section{COURSEWORK}
-        \begin{itemize}
-            \item[] Automatic Control of Flight Vehicles, Computational Techniques for Aerospace Design
-        \end{itemize}
-
-    \item[]\section{PROJECTS}
-        \textbf{Developing a Sounding Rocket Model (C++)}
-            \begin{itemize}
-                \item Generated Black Brant V and IX flight data and analyzed single versus multi-stage rocket performance
-                \item Developed and tested a multi-stage sounding rocket model
-            \end{itemize}
-
-        \vspace{0.5em}
-        \textbf{Predicting Landing Times and Initial Velocities for a Lander in a Two-Body System (C++)}
-            \begin{itemize}
-                \item Implemented C++ solutions for the Euler method and 4th Order Runge-Kutta ODE solvers
-                \item Conducted a parameter study to identify a curve fit to predict landing solutions for the model
-            \end{itemize}
-
-        \vspace{0.5em}
-        \textbf{American Society for Engineering Education Model Design Competition 2014 (C++)}
-            \begin{itemize}
-                \item Implemented an algorithm to navigate a vehicle about a 12 foot track 5 times in less than 60 seconds
-            \end{itemize}
-
-    \item[]\section{ORGANIZATIONS}
-        \begin{itemize}
-            \item[] \textbf{ISU Spaceflight Operations Workshop}
-                \hfill August 2018
-            \item[] \textbf{Vermeer International Leadership Program}
-                \hfill August 2018 - Present
+        \item[]\section{ORGANIZATIONS}
+            \textbf{ISU Spaceflight Operations Workshop}
+                \hfill August 2018 \\
+            \textbf{Vermeer International Leadership Program}
+                \hfill August 2018 - May 2019 
             \item[] \textbf{NASA National Community College Aerospace Scholars}
                 \hfill September 2013 - February 2014
-            \item[] \textbf{Winchell Undergraduate Research Symposium}
-                \hfill April 2014
+        
         \end{itemize}
-
-    \end{itemize}
     \end{resume}
 \end{document}
