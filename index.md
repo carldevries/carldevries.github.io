@@ -19,6 +19,10 @@ Hi! I'm a senior majoring in aerospace engineering at Iowa State University.
 
 ---
 ## Education
+**Master of Engineering, Aerospace Engineering** \\
+*Iowa State University College of Engineering* | Ames, IA \\
+GPA: 4.00 \\
+Expected Graduation: December 2020
 
 **Bachelor of Science, Aerospace Engineering** \\
 *Iowa State University College of Engineering* | Ames, IA \\
@@ -86,7 +90,7 @@ evaluate business requirements
 
 
 **Hardware/Software Analyst Intern**  
-*Vermeer Corporation* | Pella, IA | Jan. 2017 - Aug. 2017
+*Vermeer Corporation* | Pella, IA | Jan. 2010 - Aug. 2010
 * Deployed IT assets and supported tier I help desk support.  
 
 ---
@@ -95,7 +99,7 @@ evaluate business requirements
 
 **Spring 2019**
 * **Automatic Control of Flight Vehicles** (graduate course)
-  * PID and LQR controller design for longitudinal and lateral modes of a Cessna T-37 (Simulink)\\
+  * PID and LQR controller design for longitudinal and lateral modes of a Cessna T-37 (Simulink)
 
 
 **Fall 2019**
