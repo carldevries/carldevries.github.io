@@ -6,7 +6,7 @@ layout: default
 
 <img class="profile-picture" src="headshot.jpg">
 
-Hi! I'm a senior majoring in aerospace engineering at Iowa State University.
+Hi! I'm a graduate student majoring in aerospace engineering at Iowa State University.
 
 ---
 
@@ -21,22 +21,29 @@ Hi! I'm a senior majoring in aerospace engineering at Iowa State University.
 ## Education
 **Master of Engineering, Aerospace Engineering** \\
 *Iowa State University College of Engineering* | Ames, IA \\
-GPA: 4.00 \\
-Expected Graduation: December 2020
+Expected Graduation: May 2021 \\
+GPA: 4.00
 
 **Bachelor of Science, Aerospace Engineering** \\
 *Iowa State University College of Engineering* | Ames, IA \\
+May 2020 \\
 GPA: 3.85 \\
-Expected Graduation: May 2020
+Magna Cum Laude \\
+Aerospace Engineering Senior Overall Achievement Award
 
-**Associate of Arts, Liberal Arts, Pre-Engineering w/ Honors** \\
+**Associate of Arts, Liberal Arts, Pre-Engineering** \\
 *Des Moines Area Community College* | Boone, IA \\
+December 2014 \\
 GPA: 3.76 \\
-January 2012 - December 2014
+DMACC Honors Program
 
 ---
 
 ## Work Experience
+
+**Earth, Moon, Mars GN&C Graduate Intern**
+*The Charles Stark Draper Laboratory, Inc.* | Houston, TX | Jun. 2020 - Aug. 2020
+* Accepted a position working on dynamics and GN&C projects
 
 **Research Intern**  
 *MIT Lincoln Laboratory* | Lexington, MA | May 2019 - Jul. 2019
@@ -99,26 +106,40 @@ evaluate business requirements
 
 **Spring 2019**
 * **Automatic Control of Flight Vehicles** (graduate course)
-  * PID and LQR controller design for longitudinal and lateral modes of a Cessna T-37 (Simulink)
+  * Designed and implemented a PID and LQR controller for longitudinal and 
+  lateral modes of a Cessna T-37 (Simulink)
 
 
 **Fall 2019**
 * **Guidance and Navigation of Aerospace Vehicles** (graduate course)
-  * 3DOF Mars entry simulation using two-phase Zero-Effort-Miss/Zero-Effort-Velocity (ZEM/ZEV) guidance  
-  * Ballistic missile intercept simulation using true, pulsed proportional navigation and ZEM guidance  
-  * Orbital rendezvous using Clohessy-Wiltshire equations, linearized perturbed guidance, and ZEM/ZEV  
-  * Strapdown inertial navigation IMU simulation verified using 3DOF Mars entry flight dynamics  
+  * Developed a 3DOF Mars entry simulation using two-phase 
+  Zero-Effort-Miss/Zero-Effort-Velocity (ZEM/ZEV) guidance (MATLAB)
+  * Developed a ballistic missile intercept simulation using true and pulsed 
+  proportional navigation as well as ZEM guidance (MATLAB)
+  * Implemented the Clohessy-Wiltshire equations, linearized perturbed 
+  guidance, and ZEM/ZEV for orbital intercept and rendezvous (MATLAB)
+  * Implemented a strapdown inertial navigation IMU simulation verified using 
+  3DOF Mars entry flight dynamics (MATLAB)
 * **Random Signals Analysis and Kalman Filtering** (graduate course)
-  * Kalman Filter estimation of four aircraft longitudinal states from two measurements using elevator input  
-  * Extended Kalman Filter estimation of two-dimensional motion model  
+  * Developed a Kalman Filter estimation simulation of four aircraft 
+  longitudinal states from two measurements using elevator input (MATLAB)
+  * Developed an extended Kalman Filter estimation simulation of 
+  two-dimensional motion model (MATLAB)
 * **Spacecraft Dynamics and Control**
-  * 3DOF quaternion feedback controller simulation for satellite rest-to-rest and pointing maneuvers  
+  * Implemented a 3DOF quaternion feedback controller simulation for satellite 
+  rest-to-rest and pointing maneuvers (MATLAB)
 * **Astrodynamics II**
-  * Orbital insertion simulation and trajectory design for a two stage, solid-fuel gravity turn rocket  
-  * Lunar free return trajectory simulation using circular, restricted three body (CR3BP) dynamics  
+  * Developed an orbital insertion simulation and trajectory design for a two 
+  stage, solid-fuel gravity turn rocket (MATLAB)
+  * Developed a lunar free return trajectory simulation using circular, 
+  restricted three body (CR3BP) dynamics (MATLAB)
 
 **Spring 2020**
 * **Advanced Engineering Dynamics** (graduate course)
+  * Analytically demonstrated the stability of a space-based solar power
+  satellite (100m x 100m x 300 m) in a gravity gradient
+  * Implemented a Lyapunov stable nonlinear feedback controller for 
+  satellite pointing (attitude and angular velocity) in a gravity gradient torque
 * **Digital Feedback Control Systems** (graduate course)
 
 ---
