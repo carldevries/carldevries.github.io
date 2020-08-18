@@ -15,7 +15,7 @@ Hi! I'm a graduate student majoring in aerospace engineering at Iowa State Unive
 * Guidance, Navigation, & Control 
 * Orbital mechanics
 * Software development, test automation, & continuous integration
-* Reproducible Research Initiative
+* Reproducible research initiative
 
 ---
 ## Education
@@ -41,9 +41,12 @@ DMACC Honors Program
 
 ## Work Experience
 
-**Earth, Moon, Mars GN&C Graduate Intern**
+**Earth, Moon, Mars GN&C Graduate Intern**  
 *The Charles Stark Draper Laboratory, Inc.* | Houston, TX | Jun. 2020 - Aug. 2020
-* Accepted a position working on dynamics and GN&C projects
+* Recommended safe lunar landing site selection algorithm inputs to satisfy broad mission objectives
+* Developed a safe lunar landing site selection algorithm for the ispace autonomous lunar lander
+* Implemented a selection algorithm with mission customized objective and weighting capabilities
+* Developed tunable cost functions to capture geographic hazards as a function of distance using cost maps
 
 **Research Intern**  
 *MIT Lincoln Laboratory* | Lexington, MA | May 2019 - Jul. 2019
@@ -140,6 +143,15 @@ evaluate business requirements
   satellite (100m x 100m x 300 m) in a gravity gradient
   * Implemented a Lyapunov stable nonlinear feedback controller for 
   satellite pointing (attitude and angular velocity) in a gravity gradient torque
+  
+**Fall 2020**
+* **Orbital Mechanics** (graduate course)
+* **Remote Sensing Technologies** (graduate course)
+* **Multi-Disciplinary Optimization** (graduate course)
+* **Computational Methods for Fluid Mechanics and Heat Transfer** (graduate course)
+
+**Spring  2020 (expected)**
+* **Spacecraft Trajectory Optimization** (graduate course)
 * **Digital Feedback Control Systems** (graduate course)
 
 ---
@@ -210,7 +222,9 @@ MATLAB, Simulink, Python, C/C++, Scaled Agile, Test Driven Development, Git, SVN
 * **Vermeer Charitable Foundation Scholar 2014**  
 * **Leadership Iowa University 2013-2014**  
 * **American Institute of Aeronautics and Astronautics**
-* **PADI Open Water Diver Certified**
+* **PADI Open Water Diver**
+* **NAUI Advanced Open Water Diver**
+* **NAUI Rescue Diver**
 
 ---
 
