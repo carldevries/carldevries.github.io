@@ -27,7 +27,7 @@ GPA: 4.00
 **Bachelor of Science, Aerospace Engineering** \\
 *Iowa State University College of Engineering* | Ames, IA \\
 May 2020 \\
-GPA: 3.85 \\
+GPA: 3.87 \\
 Magna Cum Laude \\
 Aerospace Engineering Senior Overall Achievement Award
 
